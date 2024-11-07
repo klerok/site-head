@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="menu">
-            <img src="/grade/assets/Logo.png" alt="logo">
-            <a href="" class="f-cont">Home</a>
-            <div class="f-cont">
-                <a href="" class="f-cont">Features</a>
-                <div class="context l-50 h-80">
-                    <li>item1</li>
-                    <li>item2</li>
-                    <li>item3</li>
-                </div>
-            </div>
-            <div class="f-cont">
-                <a href="" class="f-cont">Blog</a>
-                <div class="context h-60 l-138">
-                    <li>News</li>
-                    <li>Posts</li>
-                </div>
-            </div>
+      <div class="menu">
+        <img src="/assets/logo-design.png" alt="logo" />
+        <a href="">Home</a>
+        <div class="f-cont">
+          <a href="">Blog</a>
+          <div class="context">
+            <li>News</li>
+            <li>Posts</li>
+          </div>
         </div>
-        <div class="user">
-            <img src="/grade/assets/user.png" alt="user">
-            <span class="username">Username</span>
-            <div class="context l-5 0 h-60">
-                <li>Setting</li>
-                <li>Log Out</li>
-            </div>
+        <div class="f-cont">
+          <a href="">Features</a>
+          <div class="context">
+            <li>About us</li>
+            <li>Products</li>
+          </div>
         </div>
+      </div>
+      <div class="user">
+        <img src="/assets/user.png" alt="user" />
+        <span>Sign In</span>
+      </div>
     </header>
     <div class="main">
-        <h1>Sign In</h1>
-        <form>
-            <div class="input">
-                <label>
-                    Email
-                    <input type="email" name="email">
-                </label>
-            </div>
-            <div class="input">
-                <label>
-                    Password
-                    <input type="password" name="password">
-                </label>
-            </div>
-            <button type="submit" class="submit-button">Sign in</button>
-        </form>
+      <h1 class="bg-blue">Sign Up</h1>
+      <form>
+        <div class="input">
+          <label>
+            Full name
+            <input tywpe="text" name="full Name" />
+          </label>
+        </div>
+        <div class="input">
+          <label>
+            E-mail
+            <input type="email" name="e-mail" />
+          </label>
+        </div>
+        <div class="input">
+          <label>
+            Phone
+            <input type="tel" name="phone" />
+          </label>
+        </div>
+        <div class="input">
+          <label>
+            Password
+            <input type="password" name="password" />
+          </label>
+        </div>
+        <div class="input">
+          <label>
+            Confirm Password
+            <input type="password" name="confirm password" />
+          </label>
+        </div>
+        <button type="submit" class="submit-button">Sign up</button>
+        <button type="submit" class="submit-button bg-viol">
+          Have account? Sign In
+        </button>
+      </form>
     </div>
-</body>
+  </body>
 </html>
