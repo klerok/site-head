@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #03A9F4;
+    height: 70px;
+    padding: 10px 25px;
+}
+
+.header img {
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.f-cont {
+    position: relative;
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+.f-cont > a {
+    text-decoration: none;
+    color: black
+}
+
+menu > a:hover {
+    color: white;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.user:hover {
+    cursor: pointer;
+}
+
+.context {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #03A9F4;
+    text-align: center;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+
+.l-20 {
+    left: 20px;
+}
+
+.l-10 {
+    left: 10px;
+}
+
+.h-80 {
+    height: 80px;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.context > li {
+    list-style-type: none;
+}
+
+.user:hover .context {
+    display: block;
+}
+
+.f-cont:hover .context {
+    display: block;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 130px 10%;
+    align-items: center;
+}
+
+.main > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    width: 385px;
+    height: 47px;
+    padding: 8px 16px;
+}
+
+input {
+    border: 1px solid #cacaca;
+    border-radius: 2px;
+    box-shadow: 2px 4px 6px 0 rgba(79, 79, 79, 0.15);
+    background: #fff;
+    height: 30px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    color: #4f4f4f;
+    gap: 2px;
+    font-size: 14px;
+}
+
+.submit-button {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 384px;
+    height: 34px;
+    background-color: #03A9F4;
+    font-size: 15px;
+    color: #fff;
+    margin: 0 auto;
+}
